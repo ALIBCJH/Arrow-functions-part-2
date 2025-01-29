@@ -21,3 +21,8 @@ document.addEventListener("click", () => console.log("click"));
 let age = 18;
 let name = age > 18 ? "adult" : "minor";
 console.log(`${name}`);
+
+// Creating Arrow Functions
+const Age = 24;
+const Name = Age > 18 ? "Adult" : "Minor";
+console.log(`${Name}`);
